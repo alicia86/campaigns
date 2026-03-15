@@ -1,0 +1,21 @@
+name: Notify Galactic Campaigns
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'swWhispers-Void/json/*.json' # Only fire if logs actually changed  
+  workflow_dispatch:
+jobs:
+  ping-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Repository Dispatch
+        run: |
+          curl -X POST \
+          -H "Authorization: Bearer ${{ secrets.ENGINE_DISPATCH_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/GalacticCampaigns/website/dispatches \
+          -d '{"event_type": "update-logs", "client_payload": {"campaign_id": "swWhispers-Void"}}'
+
+
