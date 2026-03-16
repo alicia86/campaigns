@@ -1,0 +1,14 @@
+{
+  "nsfw_files": [
+    "media/ch1_descending-into-darkness/1325255290.jpg",
+    "media/ch1_descending-into-darkness/455495406.jpg",
+    "media/ch1_descending-into-darkness/80566372.jpg"
+  ],
+  "content_warnings": {
+    "folder_name/image3.png": "Violence",
+    "folder_name/document.pdf": "Flashy Lights"
+  },
+  "gallery_highlights": [
+    "media/hero_shot.png"
+  ]
+}
