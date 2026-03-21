@@ -3131,7 +3131,27 @@
       "guild_id": "661388927734775859"
     },
     "referenced_message": null,
-    "thread": null,
+    "thread": {
+      "id": "1377978443060482080",
+      "type": 11,
+      "last_message_id": "1377980025814651013",
+      "flags": 0,
+      "guild_id": "661388927734775859",
+      "name": "Gamma Data Packet",
+      "parent_id": "1375296954300366910",
+      "rate_limit_per_user": 0,
+      "bitrate": 64000,
+      "user_limit": 0,
+      "rtc_region": null,
+      "owner_id": "208916238661844993",
+      "thread_metadata": {
+        "archived": true,
+        "archive_timestamp": ".0000002025-05-30T12:00:39.785+00:00",
+        "auto_archive_duration": 4320,
+        "locked": false,
+        "create_timestamp": ".0000002025-05-30T12:00:39.785+00:00"
+      }
+    },
     "components": [],
     "tts": false,
     "position": 72,
