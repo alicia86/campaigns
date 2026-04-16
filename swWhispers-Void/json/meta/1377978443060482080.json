@@ -1,0 +1,15 @@
+{
+  "id": "1377978443060482080",
+  "name": "Gamma Data Packet",
+  "type": 11,
+  "is_age_restricted": false,
+  "parent_id": "1375296954300366910",
+  "thread_metadata": {
+    "archived": true,
+    "archive_timestamp": "2025-06-29T12:18:16.976000+00:00",
+    "auto_archive_duration": 10080,
+    "locked": false,
+    "create_timestamp": "2025-05-30T12:00:39.731000+00:00"
+  },
+  "last_mined_at": null
+}
