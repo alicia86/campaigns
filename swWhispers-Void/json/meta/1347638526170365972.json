@@ -1,0 +1,15 @@
+{
+  "id": "1347638526170365972",
+  "name": "Dramatis Personae",
+  "type": 11,
+  "is_age_restricted": false,
+  "parent_id": "1347634398392225802",
+  "thread_metadata": {
+    "archived": true,
+    "archive_timestamp": "2025-07-07T02:14:04.911000+00:00",
+    "auto_archive_duration": 4320,
+    "locked": false,
+    "create_timestamp": "2025-03-07T18:34:22.552000+00:00"
+  },
+  "last_mined_at": "2026-05-30T06:50:40.000000+00:00"
+}
